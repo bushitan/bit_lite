@@ -1,0 +1,21 @@
+<!-- 文章  嘉宾 --> 
+
+
+<!-- 下拉提示 -->
+<view wx:if="{{isloading}}">
+        <view class="page__bd">
+        <view class="weui-loadmore ">
+        <view class="weui-loading"></view>
+        <view class="weui-loadmore__tips" style='color:{{color}}'>正在加载</view>
+        </view>
+    </view>
+</view>   
+<view wx:else>
+    <view>
+        <view class="weui-loadmore weui-loadmore_line">
+            <view class="weui-loadmore__tips weui-loadmore__tips_in-line" style='color:{{color}}'>
+                {{content}}
+            </view>
+        </view>
+    </view>
+</view>

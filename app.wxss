@@ -1,0 +1,33 @@
+/**app.wxss**/
+/* @import 'xx.wxss';
+@import 'xx_font.wxss';
+@import 'xx_mp.wxss'; */
+
+page{
+     /* background-color: #f7f7f7;  */
+     /* background-color: #eeeeee;  */
+     background-color: #f9f9f9;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif,Microsoft YaHei;
+    font-family : "Microsoft YaHei";
+    /* letter-spacing:1px; */
+}
+
+.page__m_15{    padding: 0 15px;}
+
+.page__line_gray{
+    content: "";
+    border-bottom: 1rpx #f0f0f0 solid;
+}
+
+.page__space_4{    height: 4px;}
+.page__space_6{    height: 6px;}
+.page__space_8{    height: 8px;}
+.page__space_10{    height: 10px;}
+.page__space_20{    height: 20px;}
+
+
+.page__font_9_gray{
+    font-size: 9pt;
+    color: #8d8d8d; 
+}

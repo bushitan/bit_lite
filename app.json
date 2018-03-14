@@ -1,0 +1,37 @@
+{
+    "pages":[
+        "pages/index/index",
+        "pages/loading/loading",
+        "pages/rank/rank",
+        "pages/my/my",
+        "pages/my_coin/my_coin"
+    ],
+    "window":{
+        "backgroundTextStyle":"light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "比特币旷工",
+        "navigationStyle":"custom"
+    },
+    "tabBar": {
+        "color": "#a2a2a2",
+        "selectedColor": "#b5112e",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "images/tab1.png",
+                "selectedIconPath": "images/tab1_1.png",
+                "text":"挖矿"
+            },{
+                "pagePath": "pages/rank/rank",
+                "iconPath": "images/tab2.png",
+                "selectedIconPath": "images/tab2_2.png",
+                "text": "排行"
+            },{
+                "pagePath": "pages/my/my",
+                "iconPath": "images/tab3.png",
+                "selectedIconPath": "images/tab3_3.png",
+                "text": "我的"
+            }
+        ]
+    }
+}

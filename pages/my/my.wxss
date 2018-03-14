@@ -1,0 +1,86 @@
+
+image{
+    z-index: -999
+}
+.main{
+    width: 750rpx;
+    height: 716rpx;
+}
+
+.user{
+    position: absolute;
+    width: 750rpx;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top:-120px;
+    font-size: 10pt;
+}
+
+.user .name{
+    font-size: 20pt;
+    font-weight: bold;
+}
+.user .phone{
+    font-size: 11pt;
+    margin-top: 8px;
+}
+.user .right{
+    text-align: right;
+}
+.user .num{
+    margin:8px 0;
+    /* font-size: 20pt; */
+}
+.user .num label{
+    
+    font-size: 22pt;
+}
+
+.my_coin{
+    position: absolute;
+     margin-top:-150px;   
+    font-size: 22pt;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.loading{
+    position: absolute;
+    width: 750rpx;
+    bottom: 0px;
+}
+
+/* 
+
+
+.share_image{
+    width: 750rpx;
+    height: 200rpx;
+}
+
+
+.rank{
+    background-color: #fff;
+}
+.rank .icon{
+    margin-right: 20px;
+    color: #8d8d8d; 
+}
+.rank .num{
+    color: #187bbf;
+    margin-right: 4px;
+}
+
+
+.icon{
+    height:32px;
+    width:32px;
+     margin-right:4px;  
+}
+.navigte{
+    
+    font-size: 15pt !important; 
+    color:#e2e2e2;
+} */

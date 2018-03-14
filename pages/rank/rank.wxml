@@ -1,0 +1,44 @@
+
+
+  <image src='../../images/rank_ad.jpg' class='main'></image>  
+
+
+<!-- <image src='../../images/ad.jpg' class='share_image'></image>
+<view class='page__space_4'></view> -->
+
+<view class='champion'>
+    <view class='node'>
+        <view><image src='../../images/rank_1.png' ></image></view>
+        <view class='name'>小财神</view>
+        <view class='num'>485952</view>
+    </view>
+    <view class='node'>
+        <view><image src='../../images/rank_2.png' ></image></view>
+        <view class='name'>小财神</view>
+        <view class='num'>485952</view>
+    </view>
+    <view class='node'>
+        <view><image src='../../images/rank_3.png' ></image></view>
+        <view class='name'>小财神</view>
+        <view class='num'>485952</view>
+    </view>
+</view>
+
+<view class='page__space_20' ></view>
+
+<view class="page__m_15 rank" >
+    <block wx:for="{{rankList}}" wx:key="index">
+        <xx-navigte   catchclick="toMyCoin" isarrow="false" >
+            <view slot="icon" class='icon'>{{item.num}}</view>
+            <view slot="left" >{{item.name}}
+                <!-- <label class="num"></label>
+                <label>{{item.name}}</label> -->
+            </view> 
+            <view slot="right" class='page__font_9_gray'>{{item.time}}</view> 
+        </xx-navigte>
+        <view class='page__line_gray' hidden='{{index == rankList.length-1}}'></view>
+    </block>
+</view>
+
+
+<xx-loading isloading="{{false}}"  content="更多精彩内容和活动，敬请期待"></xx-loading>

@@ -1,0 +1,37 @@
+
+<image src='../../images/my_ad.jpg' class='main'></image>
+
+<view class='user '>
+    <view  class='page__m_15'>
+        <view class='name'>小财神</view>
+        <view class='phone'>152****6678</view>
+    </view>
+    <view class='right page__m_15'>
+        <view class='num'>第 <label>88888</label></view>
+        <view >位游戏人生玩家</view>
+    </view>
+</view>
+  <!-- <view class='page__m_15'> 
+    <xx-mark color="#187bbf" >我的资产</xx-mark>
+ </view>     -->
+
+  <view class='page__m_15'>
+    <xx-navigte   catchclick="toMyCoin" >
+         <!-- <view slot="icon" >获得</view>  -->
+         <view slot="left" >我的资产</view> 
+        <!-- <view slot="right">2小时前</view>  -->
+    </xx-navigte>
+    <view class='page__line_gray'></view>
+</view>   
+
+
+<!-- 
+<block wx:for="{{myCoinList}}" wx:key="index">
+    <view>
+        <image src='{{item.image_url}}' class='main'></image>
+        <view class='my_coin'>{{item.num}}</view>
+    </view>
+</block> -->
+
+<xx-loading isloading="{{false}}"  content="陆七社区" class="loading"></xx-loading>
+

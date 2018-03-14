@@ -1,0 +1,29 @@
+
+
+<image src='../../images/index_bg.jpg' class='main'></image>
+<block wx:for="{{spritList}}">
+    <xx-sprite image="../../images/index_fa_1.png" x="{{item.x}}" y="{{item.y}}" endx="60rpx" endy="620rpx" ></xx-sprite>
+</block>
+<view class='page__space_10'></view>
+
+<image src='../../images/index_share.jpg' class='share_image'></image>
+<view class='page__space_4'></view>
+
+ <view class='page__m_15'> 
+    <xx-mark color="#b6112f" >最新记录</xx-mark>
+ </view>  
+<view class="page__m_15 rank" >
+    <block wx:for="{{actionList}}" wx:key="index">
+        <xx-navigte   catchclick="toMyCoin" isarrow="false" >
+            <view slot="icon" class='icon'>获得</view>
+            <view slot="left" >
+                <label class="num">{{item.num}}</label>
+                <label>{{item.name}}</label>
+            </view> 
+            <view slot="right" class='page__font_9_gray'>{{item.time}}</view> 
+        </xx-navigte>
+        <view class='page__line_gray' hidden='{{index == actionList.length-1}}'></view>
+    </block>
+</view>
+
+<xx-loading isloading="{{false}}"  content="暂无更多记录"></xx-loading>

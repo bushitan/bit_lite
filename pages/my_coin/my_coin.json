@@ -1,0 +1,9 @@
+{
+    "usingComponents":{
+        "xx-mark": "../../components/xx_mark/xx_mark",
+        "xx-input": "../../components/xx_input/xx_input",
+        "xx-navigte": "../../components/xx_navigte/xx_navigte",
+        "xx-button": "../../components/xx_button/xx_button"
+        
+    }
+}

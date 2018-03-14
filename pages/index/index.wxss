@@ -1,0 +1,23 @@
+/**index.wxss**/
+.main{
+    width: 750rpx;
+    height: 875rpx;
+}
+
+.share_image{
+    width: 750rpx;
+    height: 213rpx;
+}
+
+
+.rank{
+    background-color: #fff;
+}
+.rank .icon{
+    margin-right: 20px;
+    color: #8d8d8d; 
+}
+.rank .num{
+    color: #b6112f;
+    margin-right: 4px;
+}

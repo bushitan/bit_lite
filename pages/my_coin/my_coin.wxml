@@ -1,0 +1,42 @@
+
+<view class='box'>
+
+<view class='page__m_15'> 
+    <xx-mark color="#b6112f" >我的金币</xx-mark>
+ </view>  
+    <view class='page__line_gray'></view>
+  <view class='page__m_15'>
+    <xx-navigte   catchclick="toMyCoin" >
+          <image src='../../images/index_fa_1.png' slot="icon"></image>  
+         <view slot="left" >5.6</view> 
+         <view slot="right">提取</view>  
+    </xx-navigte>
+    <view class='page__line_gray'></view>
+</view>   
+
+  <view class='page__m_15'>
+    <xx-navigte   catchclick="toMyCoin" >
+          <image src='../../images/index_fa_1.png' slot="icon"></image>  
+         <view slot="left" >32</view> 
+         <view slot="right">提取</view>  
+    </xx-navigte>
+    <view class='page__line_gray'></view>
+</view>   
+
+  <view class='page__m_15'>
+    <xx-navigte   catchclick="toMyCoin" >
+          <image src='../../images/index_fa_1.png' slot="icon"></image>  
+         <view slot="left" >5861.2</view> 
+         <view slot="right">提取</view>  
+    </xx-navigte>
+</view>   
+    <view class='page__line_gray'></view>
+  <view class='page__m_15 btn'>
+    <xx-button color="#b6112f" catchclick='back' >返回</xx-button>
+</view>   
+    <!-- <xx-navigte icon="../../images/hotapp_01_03.png" title="5.6"></xx-navigte>
+    <view class='page__line_gray'></view>
+    <xx-navigte icon="../../images/hotapp_01_03.png" title="3.4"></xx-navigte>
+    <view class='page__line_gray'></view>
+    <xx-navigte icon="../../images/hotapp_01_03.png" title="500"></xx-navigte> -->
+</view>
